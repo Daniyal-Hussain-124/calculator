@@ -16,18 +16,7 @@ int main(void)
         printf("The sum is: %d", c);
         break;
     }
-        case ('-'):{
-        printf("Enter the number to be subtracted: \n");
-        scanf("%d\n%d",&a,&b);
-        int c= a-b;
-        printf("The difference is %d \n",c);
-        }
-        case ('*'):{
-        printf("Enter the number to be multiplied: \n");
-        scanf("%d\n%d",&a,&b);
-		int c= a*b;
-		printf("The multiplication answer is %d \n",c);    
-        }
+        
     default:
         break;
     }
